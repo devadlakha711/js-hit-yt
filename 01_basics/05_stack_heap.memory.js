@@ -10,3 +10,5 @@ let userOne={
 let userTwo=userOne //userTwo ko userName ka proper reference hi milega 
 // as it is in heap memory
 //so isme kuch bhi change karo userOne mai bhi vo change hojaega
+userTwo.email="ram@gmail.com";
+console.log(userOne.email);
