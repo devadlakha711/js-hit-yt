@@ -6,7 +6,7 @@ let accountState;
 // accountId=133
 accountEmail="dev@gmail.com"
 accountPassword="711"
-accountCity="Faridabad"
+accountCity="Bangalore"
 console.log(accountId);
 console.table([accountEmail, accountId, accountPassword, accountCity,accountState]);
 // console.table([
